@@ -1,6 +1,6 @@
 {% set name = "pipettor" %}
-{% set version = "1.1.0" %}
-{% set python_min = "3.9" %}
+{% set version = "1.2.1" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pipettor-{{ version }}.tar.gz
-  sha256: 15f358a190f45bdd5f0e6b065380b86ab3f1db44afaa4353ae7bd62765d6880c
+  sha256: 5d92c3868a8f4c3c2c75801b0cc797863c476ef802e077416f322361a4b72f95
 
 build:
   noarch: python
